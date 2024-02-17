@@ -1,5 +1,65 @@
+* {
+
+    box-sizing: border-box;
+}
+
 body {
 
     background-color: #18171c;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color: rgb(200, 200, 200);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+main {
+
+    margin-left: 26%;
+    margin-right: 10%;
+    padding: 15px;
+}
+
+h1::selection, p::selection, img::selection {
+
+    background-color: #605f65;
+}
+
+p {
+
+    font-size: 2em;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#main_header {
+
+    font-size: 5em;
+    text-align: center;
+}
+
+.space {
+
+    display: none;
+}
+
+#me {
+
+    display: flex;
+    width: 100%;
+}
+
+#picture_of_me {
+
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+#my_name {
+
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
