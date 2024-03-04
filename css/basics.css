@@ -5,10 +5,11 @@
 
 body {
 
-    background-color: #18171c;
+    background-color: #1f1e22;
     color: rgb(200, 200, 200);
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    padding: 0;
 }
 
 main {
@@ -28,38 +29,4 @@ p {
     font-size: 2em;
     text-align: left;
     padding-left: 10%;
-}
-
-#main_header {
-
-    font-size: 5em;
-    text-align: center;
-}
-
-.space {
-
-    display: none;
-}
-
-#me {
-
-    display: flex;
-    width: 100%;
-}
-
-#picture_of_me {
-
-    display: inline-block;
-    height: 180px;
-    width: 180px;
-    border-radius: 100%;
-    border: 3px solid white;
-}
-
-#my_name {
-
-    margin: auto;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
 }

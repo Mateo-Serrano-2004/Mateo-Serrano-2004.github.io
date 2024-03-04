@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (const div of divs) {
 
         const size = Number(div.innerHTML);
+        div.style.display = "none";
 
         const space = document.createElement("div");
 

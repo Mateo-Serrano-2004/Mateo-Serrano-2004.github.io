@@ -1,0 +1,28 @@
+header {
+
+    position: relative;
+    background-color: #121212;
+    width: 100vw;
+    height: 50vh;
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+}
+
+#picture_of_me {
+
+    position: absolute;
+    height: 100%;
+    aspect-ratio: 1/1;
+    mask-image: linear-gradient(to right, black, transparent 100%);
+}
+
+#my_name {
+
+    position: absolute;
+    font-size: 10vh;
+    left: calc(50vh + 5%);
+    top: 50%;
+    margin: 0;
+    transform: translate(0, -50%);
+}
